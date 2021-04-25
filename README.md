@@ -28,3 +28,4 @@ To install the MTA icons, copy the www/icons/mta directory and all files to your
 
 Full path: /config/www/icons/mta/
 
+Use customize.yaml in include directoyr to add entity_picture and friendly_name
