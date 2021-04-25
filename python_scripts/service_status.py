@@ -38,7 +38,7 @@ def SubwayStatus():
                      new_data.append({"title": k, "status": v})
                  container = {}
                  container['items'] = new_data
-                 with open('/config/data/MTA_' + str(i) + '_data.json', 'w') as outfile: json.dump(container, outfile)
+                 with open('/config/data/MTA_' + m + '_data.json', 'w') as outfile: json.dump(container, outfile)
                  container = {}
                  new_data = []
                  currentStatus = {}
