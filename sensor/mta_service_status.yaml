@@ -6,53 +6,53 @@
 # MTA service status sensors
   - platform: file
     name: Trains_123
-    file_path: /config/data/MTA_2_data.json
+    file_path: /config/data/MTA_Subway_Status_data.json
     value_template: "{{ value_json['items'][0]['status'] }}"
   - platform: file
     name: Trains_456
-    file_path: /config/data/MTA_2_data.json
+    file_path: /config/data/MTA_Subway_Status_data.json
     value_template: "{{ value_json['items'][1]['status'] }}"
   - platform: file
     name: Trains_7
-    file_path: /config/data/MTA_2_data.json
+    file_path: /config/data/MTA_Subway_Status_data.json
     value_template: "{{ value_json['items'][2]['status'] }}"
   - platform: file
     name: Trains_ACE
-    file_path: /config/data/MTA_2_data.json
+    file_path: /config/data/MTA_Subway_Status_data.json
     value_template: "{{ value_json['items'][3]['status'] }}"
   - platform: file
     name: Trains_BDFM
-    file_path: /config/data/MTA_2_data.json
+    file_path: /config/data/MTA_Subway_Status_data.json
     value_template: "{{ value_json['items'][4]['status'] }}"
   - platform: file
     name: Trains_G
-    file_path: /config/data/MTA_2_data.json
+    file_path: /config/data/MTA_Subway_Status_data.json
     value_template: "{{ value_json['items'][5]['status'] }}"
   - platform: file
     name: Trains_JZ
-    file_path: /config/data/MTA_2_data.json
+    file_path: /config/data/MTA_Subway_Status_data.json
     value_template: "{{ value_json['items'][6]['status'] }}"
   - platform: file
     name: Trains_L
-    file_path: /config/data/MTA_2_data.json
+    file_path: /config/data/MTA_Subway_Status_data.json
     value_template: "{{ value_json['items'][7]['status'] }}"
   - platform: file
     name: Trains_NQR
-    file_path: /config/data/MTA_2_data.json
+    file_path: /config/data/MTA_Subway_Status_data.json
     value_template: "{{ value_json['items'][8]['status'] }}"
   - platform: file
     name: Trains_S
-    file_path: /config/data/MTA_2_data.json
+    file_path: /config/data/MTA_Subway_Status_data.json
     value_template: "{{ value_json['items'][9]['status'] }}"
   - platform: file
     name: Trains_SIR
-    file_path: /config/data/MTA_2_data.json
+    file_path: /config/data/MTA_Subway_Status_data.json
     value_template: "{{ value_json['items'][10]['status'] }}"
   - platform: file
     name: Bus_B1_B84
-    file_path: /config/data/MTA_3_data.json
+    file_path: /config/data/MTA_Bus_Status_data.json
     value_template: "{{ value_json['items'][0]['status'] }}"
   - platform: file
     name: Bridge_Verrazano_Narrows
-    file_path: /config/data/MTA_4_data.json
+    file_path: /config/data/MTA_BT_Status_data.json
     value_template: "{{ value_json['items'][8]['status'] }}"
