@@ -1,0 +1,52 @@
+sensor.trains_123:
+  custom_ui_state_card: state-card-custom-ui
+  entity_picture: /local/icons/mta/123.gif
+  friendly_name: '1 2 3'
+sensor.trains_456:
+  custom_ui_state_card: state-card-custom-ui
+  entity_picture: /local/icons/mta/456.gif
+  friendly_name: '4 5 6'
+sensor.trains_7:
+  custom_ui_state_card: state-card-custom-ui
+  entity_picture: /local/icons/mta/7.gif
+  friendly_name: '7'
+sensor.trains_ace:
+  custom_ui_state_card: state-card-custom-ui
+  entity_picture: /local/icons/mta/ACE.gif
+  friendly_name: 'A C E'
+sensor.trains_bdfm:
+  custom_ui_state_card: state-card-custom-ui
+  entity_picture: /local/icons/mta/BDFM.gif
+  friendly_name: 'B D F M'
+sensor.trains_g:
+  custom_ui_state_card: state-card-custom-ui
+  entity_picture: /local/icons/mta/G.gif
+  friendly_name: 'G'
+sensor.trains_jz:
+  custom_ui_state_card: state-card-custom-ui
+  entity_picture: /local/icons/mta/JZ.gif
+  friendly_name: 'J Z'
+sensor.trains_l:
+  custom_ui_state_card: state-card-custom-ui
+  entity_picture: /local/icons/mta/L.gif
+  friendly_name: 'L'
+sensor.trains_nqr:
+  custom_ui_state_card: state-card-custom-ui
+  entity_picture: /local/icons/mta/NQRW.gif
+  friendly_name: 'N Q R W'
+sensor.trains_s:
+  custom_ui_state_card: state-card-custom-ui
+  entity_picture: /local/icons/mta/S.gif
+  friendly_name: 'S'
+sensor.trains_sir:
+  custom_ui_state_card: state-card-custom-ui
+  entity_picture: /local/icons/mta/SIR.gif
+  friendly_name: 'SIR'
+sensor.bus_b1_b84:
+  custom_ui_state_card: state-card-custom-ui
+  entity_picture: /local/icons/mta/bus.gif
+  friendly_name: 'B1 - B84'
+sensor.bridge_verrazano_narrows:
+  custom_ui_state_card: state-card-custom-ui
+  entity_picture: /local/icons/mta/Bridge.png
+  friendly_name: 'Verrazano Narrows'
