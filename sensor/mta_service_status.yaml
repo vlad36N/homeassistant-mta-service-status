@@ -1,0 +1,5 @@
+# MTA service status sensor
+  - platform: command_line
+    name: MTA service status
+    command: "python3 /config/python_scripts/service_status.py"
+    #scan_interval: 120 #optional by default it will run by default 60 seconds
