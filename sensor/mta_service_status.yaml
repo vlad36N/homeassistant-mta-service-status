@@ -3,7 +3,7 @@
     name: MTA service status
     command: "python3 /config/python_scripts/service_status.py"
     #scan_interval: 120 #optional by default it will run by default 60 seconds
-##MTA real time status monitor
+# MTA service status sensors
   - platform: file
     name: Trains_123
     file_path: /config/data/MTA_2_data.json
