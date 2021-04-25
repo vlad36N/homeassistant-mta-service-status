@@ -15,7 +15,9 @@ The script from the offical MTA Service Status .txt feed and create 5 json files
 Installation
 
 Create "data" directory/folder in your Home Assistant configuration directory.
+
 Copy all files from data folder to /config/data/
+
 Full path: /config/data/
 
 To install, copy the service_status.py to a directory called python_scripts in your Home Assistant configuration directory.
