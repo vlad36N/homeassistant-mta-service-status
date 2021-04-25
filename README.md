@@ -4,11 +4,11 @@ Overview
 
 A python script to provide MTA Subway service statuses for Home Assistant. 
 
-https://raw.githubusercontent.com/vlad36N/homeassistant-mta-service-status/master/images/service.png
+https://github.com/vlad36N/homeassistant-mta-service-status/blob/031c9d63d989a55b08a72f8f9947d90ec80bf427/images/service.png
 
 The script from the offical MTA Service Status .txt feed and create 5 json files.
 
-https://raw.githubusercontent.com/vlad36N/homeassistant-mta-service-status/master/images/json_files.png
+https://github.com/vlad36N/homeassistant-mta-service-status/blob/031c9d63d989a55b08a72f8f9947d90ec80bf427/images/json_files.png
 
 
 
