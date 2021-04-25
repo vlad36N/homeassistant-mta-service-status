@@ -3,7 +3,12 @@ Home Assistant "MTA Service Status" python script
 Overview
 
 A python script to provide MTA Subway service statuses for Home Assistant. 
+
+images/service.png
+
 The script from the offical MTA Service Status .txt feed and create 5 json files.
+
+images/json_files.png
 
 
 
