@@ -29,9 +29,8 @@ File paths must be added to allowlist_external_dirs:.
 
 Add to configuration.yaml:
 
-  allowlist_external_dirs:
-  
-    - /config/data
+    allowlist_external_dirs:
+       - /config/data/
 
 Copy all files from data folder to /config/data/
 
