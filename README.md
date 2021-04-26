@@ -29,8 +29,9 @@ File paths must be added to whitelist_external_dirs.
 
 Add to configuration.yaml:
 
-whitelist_external_dirs:
-  - /config/data
+  whitelist_external_dirs:
+  
+    - /config/data
 
 Copy all files from data folder to /config/data/
 
