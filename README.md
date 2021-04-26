@@ -31,3 +31,14 @@ Full path: /config/www/icons/mta/
 Use "customize.yaml" in include directory to add "entity_picture" and "friendly_name".
 
 Full path: /config/include/
+
+Add to ui-lovelace.yaml following:
+
+      - type: entities
+        title: MTA Service Status
+        show_header_toggle: false
+        entities:
+          - entity: sensor.trains_456
+          - entity: sensor.trains_nqr
+          - entity: sensor.bus_b1_b84
+          - entity: sensor.bridge_verrazano_narrows
