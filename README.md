@@ -10,6 +10,15 @@ The script from the offical MTA Service Status .txt feed and create 5 json files
 
 <img src="images/all_json_files.png">
 
+MTA_BT_Status_data.json cover Bridges and Tunnels: Bronx-Whitestone, Cross Bay, Henry Hudson, Hugh L. Carey, Marine Parkway, Queens Midtown, Robert F. Kennedy, Throgs Neck, Verrazzano-Narrows
+
+MTA_Bus_Status_data.json cover Buses: B1 - B99, B100 - B103, BM1 - BM5, BX1 - BX99, BXM1 - BXM18, M1 - M191, Q1 - Q113, QM1 - QM44, S40 - S98, SIM1 - SIM35, X27 - X68
+
+MTA_LIRR_Status_data.json cover Long Island Rail Road: Babylon, Belmont, City Terminal Zone, Far Rockaway, Hempstead, Long Beach, Montauk, Oyster Bay, Port Jefferson, Port Washington, Ronkonkoma, West Hempstead
+
+MTA_MetroNorth_Status_data.json cover Metro-North Railroad: Hudson, Harlem, Wassaic, New Haven, New Canaan, Danbury, Waterbury, Pascack Valley, Port Jervis
+
+MTA_Subway_Status_data.json cover Subways and Staten island Railway: 123, 456, 7, ACE, BDFM, G, JZ, L, NQR, S, SIR
 
 
 Installation
