@@ -23,15 +23,15 @@ def SubwayStatus():
                  m = ""
                  ##ent_name = ""
                  if i == 2:
-                         m = "Subway Status:"
+                         m = "Subway_Status"
                  elif i == 3:
-                         m = "Bus Status:"
+                         m = "Bus_Status"
                  elif i == 4:
-                         m = "BT Status:"
+                         m = "BT_Status"
                  elif i == 5:
-                         m = "LIRR Status:"
+                         m = "LIRR_Status"
                  elif i == 6:
-                         m = "MetroNorth Status:"
+                         m = "MetroNorth_Status"
                  for child in root[i]:
                      currentStatus[child[0].text] = child[1].text
                  for k,v in currentStatus.items():
