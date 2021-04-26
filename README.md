@@ -25,6 +25,13 @@ Installation
 
 Create "data" directory/folder in your Home Assistant configuration directory.
 
+File paths must be added to whitelist_external_dirs.
+
+Add to configuration.yaml:
+
+whitelist_external_dirs:
+  - /config/data
+
 Copy all files from data folder to /config/data/
 
 Full path: /config/data/
