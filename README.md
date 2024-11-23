@@ -1,3 +1,6 @@
+NYC MTA changed structure of the services and website and way service status obtain.
+
+
 Home Assistant "MTA Service Status" python script
 
 Overview
